@@ -1,0 +1,450 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis-Styled CV
+% LaTeX Template
+% Version 1.0 (22/2/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{scrartcl}
+
+\reversemarginpar % Move the margin to the left of the page 
+
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}} % New command defining the margin text style
+
+\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
+\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
+
+\renewcommand{\cvheadingfont}{\LARGE\color{Maroon}} % Font color of your name at the top
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\usepackage{graphicx}
+\hypersetup{colorlinks, breaklinks, urlcolor=Maroon, linkcolor=Maroon} % Set link colors
+
+\newlength{\datebox}\settowidth{\datebox}{Spring 2011} % Set the width of the date box in each block
+
+\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{1.5em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\vspace{0.5em}} % Add some white space after each new entry
+
+\newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+\def\dj{d\kern-0.4em\char"16\kern-0.1em}
+\def\Dj{\mbox{\raise0.3ex\hbox{-}\kern-0.4em D}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{empty} % Stop the page count at the bottom of the first page
+\pagestyle{empty} %remove page numbering
+\date{}
+\centering
+\begin{cv}{\spacedallcaps{Curriculum vitae Viktorian Miok}}\vspace{1.5em} % Your name
+%----------------------------------------------------------------------------------------
+%	PHOTO
+%--------------------------------------------------------------------------------------
+\begin{figure}[h]
+\centering
+\includegraphics[width=35mm, angle =90]{Viktorian.jpg}
+\end{figure}
+
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+\begin{flushleft}\textbf{Personal Information}\end{flushleft}% Personal information heading
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+
+
+%----------------------------------------------------------------------------------------
+% \NewEntry{Name:}{Viktorian Miok} % Email address. Oberschlei\ss{}heim
+\Description{\MarginText{Name:}Viktorian Miok}
+\Description{\MarginText{Address:} Am Stutenanger 10a, 85764, M\"unchen, Germany}
+\Description{\MarginText{Telephone:}+491776259961}
+\Description{\MarginText{E-mail:}\href{mailto:viktormiok@gmail.com}{viktormiok@gmail.com}}
+%\Description{\MarginText{LinkedIn:}\href{https://www.linkedin.com/in/viktorian-miok-17287663}{https://ro.linkedin.com/in/viktorian-miok-19909144}}
+\Description{\MarginText{Web pages:}\href{https://www.linkedin.com/in/viktorian-miok-19909144/?originalSubdomain=ro}{LinkedIn} }
+\Description{\MarginText{}\href{https://github.com/viktormiok}{GitHub} }
+\Description{\MarginText{}\href{https://scholar.google.com/citations?user=2ijEv10AAAAJ }{GoogleScholar} }
+\Description{\MarginText{}\href{https://www.helmholtz-muenchen.de/ido/institute/staff/staff/ma/8391/Dr.-Miok }{Helmholtz Center Munich} }
+%\Description{\MarginText{Web pages:}\href{https://www.linkedin.com/in/viktorian-miok-19909144/?originalSubdomain=ro}{LinkedIn } 
+%\Description{\MarginText{sd}\href{https://github.com/viktormiok}{GitHub} \\
+%							  \href{https://scholar.google.com/citations?user=2ijEv10AAAAJ }{GoogleScholar}\\
+%							  \href{https://www.helmholtz-muenchen.de/ido/institute/staff/staff/ma/8391/Dr.-Miok }{Helmholtz Center Munchen}
+
+%\Description{\MarginText{Date of birth:}27-10-1985}.   https://www.linkedin.com/in/viktorian-miok-19909144/?originalSubdomain=ro
+%\Description{\MarginText{Place of birth:}Zrenjanin, Serbia}
+
+\vspace{1em}
+\vspace{1em}
+%----------------------------------------------------------------------------------------
+%	SUMMARY
+%----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+\begin{flushleft}\textbf{Summary}\end{flushleft}
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+Committed and highly motivated postdoctoral researcher in the field of Bioinformatics. Comprehensive understanding of quantitative and integrative analysis of complex biological datasets. Dedicated team player and collaborator in interdisciplinary settings. Eager to use my skills and passion to improve and develop algorithms for the analysis and visualisation of omics data in order to generate actionable biological insights, discover molecular targets and identify mechanisms and biomarkers.
+
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+
+%------------------------------------------------
+%\vspace{-0.5em} 
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC EXPERIENCE
+%----------\includegraphics[]{../../../../Downloads/DSC_7764.JPG}
+------------------------------------------------------------------------------
+
+\begin{flushleft}\textbf{Academic Experience}\end{flushleft}
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+
+
+\Description{\MarginText{02/2019-}\textbf{Postdoctoral Researcher in Bioinformatics}, 
+Institute for Diabetes \& Obesity, German Center for Diabetes Research, Helmholtz Center Munich, Germany}
+\Description{$\bullet$ Development of methodology to decipher molecular control of cell state transitions in cell to cell communication models, under different nutrition availability using scRNA-seq data.}
+\vspace{-10pt}
+\Description{ $\bullet$ Developed Python pipelines for analysis of single-cell transcriptome data. }
+\vspace{-10pt}
+\Description{ $\bullet$ Developed R package and Shiny application for machine learning analysis and visualisation of cellular spatial point patterns. }
+\vspace{-10pt}
+\Description{ $\bullet$  Performed consultation providing statistical and bioinformatics data analysis for various projects aiming to investigate development of diabetes and obesity.}
+
+\Description{\MarginText{09/2017-09/2019}\textbf{Bioinformatician}, 
+Victor Babes University of Medicine and Pharmacy Timisoara, Timisoara, Romania}
+\Description{$\bullet$  Bioinformatics support at the at the Department of Biochemistry and Pharmacology.} 
+\vspace{-10pt}
+\Description{$\bullet$ Analysed the genomics, transcriptomics and metabolomics data aiming to investigate long non-coding RNAs (IncRNAs) in biological fluids, in order to identify the potential biomarkers. }
+\vspace{-10pt}
+\Description{$\bullet$ Together with the members of the group we worked in a number of collaborative projects with other departments.}
+
+\Description{\MarginText{01/2012-10/2016}\textbf{Doctoral Researcher in Bioinformatics}, 
+Department of Epidemiology \& Data Science, Amsterdam Public Health Research Institute and Department of Pathology, Amsterdam University Medical Center, Amsterdam, The Netherlands}
+\Description{$\bullet$ Theoretical analysis and software implementation of univariate and multivariate statistical machine learning methodology for temporal integrative differential expression analysis (tigaR R-package) and reconstruction of dynamic regulatory networks (rags2ridges R-package). }
+\vspace{-10pt}
+\Description{$\bullet$ Developed statistical design of the experiments, performed state of the art data preprocessing and analysed data sets employing developed methodology for temporal integration of  multilevel molecular (DNA copy number, methylation, mRNA and microRNA gene expression) omics data}
+\vspace{-10pt}
+\Description{$\bullet$ Worked in close collaboration with the biomedical researchers and regularly presented research findings to the mixed audience. }
+
+\Description{\MarginText{10/2010-12/2011}\textbf{Research Fellow in Statistics} 
+Faculty of Mathematics and Computer Sciences, University of Bucharest, Bucharest, Romania}
+\Description{$\bullet$ Worked on theoretical background of Bayesian statistics and various regression models for analysing biomedical and clinical data. }
+\vspace{-10pt}
+\Description{$\bullet$ Performed simulation studies in order to implement theoretical results and compare with different statistical software for analysing the data.}
+
+\Description{\MarginText{11/2011-12/2012}\textbf{Visiting Researcher} 
+Faculty of Science, Louvain School of Statistics, Biostatistics and Actuarial Sciences, Université catholique de Louvain, Louvain-la-Neuve, Walloon Region, Belgium}
+\Description{$\bullet$ Worked at the Louvain School of Statistics, Biostatistics and Actuarial Sciences on the project: "Least squares estimation in presence of right-censored selection biased data". }
+\vspace{-10pt}
+%------------------------------------------------
+
+% Technology stack: R, Python, git, bash, Docker, LaTex, HPC.  Technology stack: R, LaTex, SPSS, HPC.   \\ Technology stack: R, Python, JavaScript, CWL, bash, Docker, git, AWS, Google Cloud. \\ Technology stack: SAS V9, SAS/BASE, SAS/STAT, SAS/SQL, SAS/MACRO.
+
+\vspace{1em} 
+\vspace{1em} 
+\vspace{1em} 
+\vspace{1em} 
+\vspace{1em} 
+\vspace{1em} 
+
+%----------------------------------------------------------------------------------------
+%	INDUSTRY EXPERIENCE
+%----------\includegraphics[]{../../../../Downloads/DSC_7764.JPG}
+------------------------------------------------------------------------------
+
+\begin{flushleft}\textbf{Industry Experience}\end{flushleft}
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+
+\Description{\MarginText{09/2017-01/2019\hspace{30pt}.}\textbf{Bioinformatics Engeneer}, 
+
+Seven Bridges, Belgrade, Serbia }
+\Description{$\bullet$  Part of the team working on Seven Bridges and Cancer Genomics Cloud platforms, one of the most advanced cloud-based environment for conducting bioinformatic analysis and storage of large genomics data sets. }
+\vspace{-10pt}
+\Description{$\bullet$ Development, optimisation and implementation of end-to-end tools and pipelines on AWS and Google cloud infrastructure, that allow automatisation of the analysis and visualisation of large and complex omics NGS data sets. }
+\vspace{-10pt}
+\Description{$\bullet$ Benchmarked common bioinformatics tools in terms of performance, usability and computation costs, as well as, worked on product improvements and conducted analyses of genomics data. }
+%Collaboration with engineering groups on troubleshooting and setting up the automated testing of novel filesystem and it's influence on NGS tool performance.
+\Description{\MarginText{08/2009-08/2010}\textbf{SAS Analyst}, 
+
+Cmed Clinical Services, Timisoara, Romania}
+\Description{$\bullet$ SAS programming for both production and QC of derived datasets, data listenings, data summaries, figures and statistical appendices for global Phase I-IV trials.}
+\vspace{-10pt}
+\Description{$\bullet$ Responsible for the accuracy of SAS programs by reviewing output, reviewing code, reviewing log files and running all checking utilities. }
+\vspace{-10pt}
+%\Description{$\bullet$ Creation of selected study specifications for analysis datasets and pooled datasets for phase I-IV clinical trials. 
+\Description{$\bullet$ Responsible for the quality and timeliness of programming deliverables, while providing SAS programming support for all data management activities performed by Cmed. }
+
+\vspace{1em}
+\vspace{1em}
+
+%------------------------------------------------
+\vspace{-0.5em} 
+
+
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%		TEACHIING EXPERIENCE
+%----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+\begin{flushleft}\textbf{Teaching Experience}\end{flushleft}
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+
+
+\Description{\MarginText{09/2018-01/2019\hspace{30pt}.}\textbf{Teaching Assistant},
+
+Department of Functional Sciences, Victor Babes University of Medicine and Pharmacy, Timisoara, Romania}
+\Description{$\bullet$  Course: Biostatistics 
+
+Teaching practical part of the courses. }
+\Description{$\bullet$  Course: Medical Informatics
+
+Teaching practical part of the courses.}
+
+\Description{\MarginText{02/2016-07/2016\hspace{30pt}.}\textbf{Teaching Assistant},
+
+ Faculty of Medicine, VU University Amsterdam, The Netherlands}
+\Description{$\bullet$  Course: Biostatistics
+
+Guided medical students in their practical work using software SPSS.}
+
+
+\Description{\MarginText{08/2008-10/2008}\textbf{Teacher of Mathematics}, 
+
+Economical High School Jovan Trajkovi\'c, Zrenjanin, Serbia}
+
+\Description{$\bullet$  Course: Mathematics
+
+Teaching mathematics the high school students.}
+
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em} % Extra space between major sections
+------------------------------------------------------------------------------
+%\spacedlowsmallcaps{Education}\vspace{1em}
+\begin{flushleft}\textbf{Education}\end{flushleft}
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+
+\Description{\MarginText{01/2012- 09/2018\hspace{27pt}.}\textbf{Doctorate in Computational Biology},              
+ VU University Amsterdam, Amsterdam, The Netherlands, \\
+PhD Thesis: \textbf{"Comprehensive molecular characterisation of HPV-induced transformation by longitudinal statistical modelling".}
+Advisor: Dr. Wessel van Wieringen and Prof. Dr. Mark van de Wiel }
+
+\Description{\MarginText{10/2016-07/2017}\textbf{Master in Business Administration and Management},
+West University of Timisoara, Timisoara, Romania}
+
+\Description{\MarginText{09/2008-07/2010}\textbf{Master in Statistics},
+West University of Timisoara, Timisoara, Romania, \\
+Master Thesis: \textbf{"Bayesian statistics and applications.}
+Advisor: Dr. Ilie Stan}
+
+\Description{\MarginText{09/2004-07/2008}\textbf{Diploma in Mathematics},
+ 
+ University of Belgrade, Belgrade, Serbia }
+%------------------------------------------------
+
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+
+
+\vspace{1em}
+\vspace{1em}
+\vspace{1em} 
+\vspace{1em} % Extra space between major sections
+------------------------------------------------------------------------------
+%\spacedlowsmallcaps{Education}\vspace{1em}
+\begin{flushleft}\textbf{Selected Publications}\end{flushleft}
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+
+
+\Description{$\bullet$ Monroy Kuhn, J.M., \textbf{Miok, V.}, Lutter, D.  (2021), \textbf{"Correlation guided Network Integration (CoNI) of omics data generates multiform graph representation to study molecular interaction networks"}, Submitted.}
+\vspace{-5pt}
+\Description{$\bullet$ Suwandhi, L., Altun, I., Karlina, R.,  \textbf{Miok, V.}, ... Theis, F. J., Ussar, S.  (2021), \textbf{"Asc-1 regulates white versus beige adipocyte fate in a subcutaneous stromal cell population"}, Nature communications, 12(1), 1-12.}
+\vspace{-5pt}
+\Description{$\bullet$ Karlina, R., Lutter, D., \textbf{Miok, V.}, Fischer, D., ... Cypess, A.M., Ussar, S. (2021), \textbf{"Identification and characterization of distinct brown adipocyte subtypes in C57BL/6J mice"}, Life science alliance, 4(1).}
+\vspace{-5pt}
+\Description{$\bullet$ Babion, I., \textbf{Miok, V.}, Jaspers A., ... van Wieringen, W.N., Wilting, S.M. (2020), \textbf{"Identification of Deregulated Pathways, Key Regulators, and Novel miRNA-mRNA Interactions in HPV-Mediated Transformation"}, \textit{Cancers}, 12(3), 700.}
+\vspace{-5pt}
+\Description{$\bullet$ \textbf{Miok, V.}, Wilting, S.M., van Wieringen, W.N. (2019), \textbf{"Ridge estimation of network models from time‐course omics data"}, \textit{Biometrical Journal}, 61(2), 391-405.}
+\vspace{-5pt}
+\Description{$\bullet$ \textbf{Miok, V.} (2018), \textbf{"Comprehensive molecular characterisation of HPV-induced transformation by longitudinal statistical modelling"}, \textit{Ph.D. Thesis, VU University of Amsterdam}.}
+\vspace{-5pt}
+\Description{$\bullet$ \textbf{Miok, V.}, Wilting, S.M., van Wieringen, W.N. (2017), \textbf{"Ridge estimation of the VAR(1) model and its time series chain graph from multivariate time-course omics data"}, \textit{Biometrical Journal}, 59(1), 172-191.}
+\vspace{-5pt}
+\Description{$\bullet$ Wilting, S.M., \textbf{Miok, V.}, Jaspers, A., ... Snijders, P.J.F., Steenbergen, R.D.M. (2016), \textbf{"Aberrant methylation-mediated silencing of microRNAs contributes to HPV-induced anchorage independence"}, \textit{Oncotarget}, 7(28), 43805-43819.}
+\vspace{-5pt}
+\Description{$\bullet$ \textbf{Miok, V.}, Wilting, S.M., Van de Wiel, M.A., ... Steenbergen, R.D.M., Van Wieringen, W.N. (2014), \textbf{"tigaR: integrative significance analysis of temporal differential gene expression induced by genomic abnormalities"}, \textit{BMC Bioinformatics"}, 15, 327. }
+
+%------------------------------------------------
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+%------------------------------------------------
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	CONFERENCE PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+% Extra space between major sections
+------------------------------------------------------------------------------
+%\spacedlowsmallcaps{Education}\vspace{1em}
+\begin{flushleft}\textbf{Conference and Workshop Presentations}\end{flushleft}
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+
+\Description{\MarginText{11/2019}  Helmholtz Diebetes Seminars, M\"unchen, Germany}
+\vspace{-5pt}
+\Description{\MarginText{06/2017}  The Annual International Conference of the Romanian Society for Biochemistry and Molecular Biology, Timisoara, Romania}
+\vspace{-5pt}
+\Description{\MarginText{03/2017}  Bioinformatics for Aging Seminar Series, Bucharest, Romania}
+\vspace{-5pt}
+\Description{\MarginText{02/2016} Statistical Methods for Post Genomic Data (SMPGD) Conference, Lille, France}
+\vspace{-5pt}
+\Description{\MarginText{08/2015} International Society of Clinical Biostatistics (ISCB) Annual Conference, Utrecht, The Netherlands}
+\vspace{-5pt}
+\Description{\MarginText{06/2015} Integration Meeting, Delft, The Netherlands}
+\vspace{-5pt}
+\Description{\MarginText{04/2015} International Biometrics Society, Nijmegen, The Netherlands}
+\vspace{-5pt}
+\Description{\MarginText{04/2014} Netherlands Bioinformatics Centre (NBIC) Conference, Lunteren, The Netherlands}
+\vspace{-5pt}
+\Description{\MarginText{11/2013} Hexa-Symposium, Hasselt University, Hasselt, Belgium}
+\vspace{-5pt}
+\Description{\MarginText{10/2011} The ISCB Cross-Border Biostatistics Meeting, University of Szeged, Hungary}
+%------------------------------------------------
+
+\vspace{1em} % Extra space between major sections
+
+
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Misscellaneous
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	Languages
+%----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+\begin{flushleft}\textbf{Miscellaneous}\end{flushleft}
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+
+
+%\Description{\MarginText{Coursera certifications:}Machine Learning (Stanford), Data Scientist's Toolbox (John Hopkins)}
+\Description{\MarginText{Languages:}  \textbf{Romanian} (native or bilingual proficiency),  \textbf{Serbian} (native or bilingual proficiency),  \textbf{English} (professional working proficiency),  \textbf{Russian} (elementary proficiency)}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+\Description{\MarginText{Technical skills:} 
+\Description{$\bullet$ \textit{Currently I use:} \textbf{R, Python, git, bash, Docker, Jupyter, \LaTeX, HPC}}}
+\vspace{-13pt}
+\Description{$\bullet$ \textit{Used before:} \textbf{SAS, SPSS, CWL, AWS, Google Cloud}}
+\vspace{-5pt}
+\Description{$\bullet$  \textit{Familiar with:} \textbf{C, C++, JavaScript, Mathematica, mySQL.}}
+
+%----------------------------------------------------------------------------------------
+%	SIDELINE ACTIVITIES
+%----------------------------------------------------------------------------------------
+\vspace{1em}% Extra space between major sections
+------------------------------------------------------------------------------
+\begin{flushleft}\textbf{Side Activities}\end{flushleft}
+\begin{center}
+ \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+\end{center}
+
+\Description{\MarginText{01/2011-01/2013}Member of the International Society for Clinical Biostatistics (ISCB), Romanian National Group}
+\vspace{-5pt}
+%\Description{\MarginText{}$\bullet$ Responsible for the organization of various events, e.g. soft skills workshops, trips and sport events.}
+\Description{\MarginText{05/2008-}Member of Society of Romanian Minority in Serbia}
+\vspace{-5pt}
+%\Description{\MarginText{}$\bullet$ Coordinating 5 people from the team. Contacting speakers of the event and providing them assistance.}
+%\Description{\MarginText{}$\bullet$ Contacting speakers of the event and providing them assistance.}
+%\Description{\MarginText{3/2010-4/2010}\textbf{Member of the organizing Committee} of the Montenegrin mathematical competition for high school students}
+%\Description{$\bullet$ Proposing problems for the competition and grading the submissions. }
+
+
+%----------------------------------------------------------------------------------------
+%	WORKSHOPS
+%----------------------------------------------------------------------------------------
+\Description{\MarginText{Workshops:}Presentation skills, Team building. }
+\vspace{-5pt}
+\Description{\MarginText{Organiser:} Summer school of Japanese language and culture - Timisoara, Romania.\par 
+ \hspace{22pt} Conference and events - ASCOR Timisoara, Romania \par
+ \hspace{22pt} Festivals and travelling for GIK-Banat folk-dance school, Zrenjanin, Serbia. \par }
+\Description{\MarginText{Sports:}I like to play football and basketball for fun.}
+\vspace{-5pt}
+\Description{\MarginText{Dancing:}I attended dance lessons}
+ %\hspace{2pt}Traveled extensively with Folk-Dance School from Zrenjanin, Serbia.}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+%\vspace{1em}% Extra space between major sections
+%------------------------------------------------------------------------------
+%\begin{flushleft}\textbf{Interests}\end{flushleft}
+%\begin{center}
+% \noindent\makebox[\linewidth]{\rule{173mm}{0.8pt}}
+%\end{center}
+
+%\Description{\MarginText{Sports}I like to play football and basketball for fun.}
+%\vspace{-5pt}
+%\Description{\MarginText{Dancing}I attended dance lessons}
+
+
+
+
+\end{cv}
+
+\end{document}
+
