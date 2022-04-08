@@ -1,5 +1,9 @@
 # Publications
 
+[Hypercaloric diet triggers transient molecular rearrangements of astrocytes selectively in the arcuate nucleus](https://www.biorxiv.org/content/10.1101/2022.03.30.486358v1.abstract)   
+LM Lutomska*, __V Miok*__, N Krahmer, I González García, T Gruber, O Le Thuc, C De Bernardis Murat, B Legutko, M Sterr, G Saher, H Lickert, TD Müller, S Ussar, MH Tschöp, D Lutter, C García-Cáceres.   
+*__bioRxiv__, 2022.* 
+
 [Asc-1 regulates white versus beige adipocyte fate in a subcutaneous stromal cell population](https://www.nature.com/articles/s41467-021-21826-9)    
 L Suwandhi, I Altun, R Karlina, __V Miok__, T Wiedemann, D Fischer, T Walzthoeni, C Lindner, A Böttcher, SS Heinzmann, A Israel, AEMM Khalil, A Braun, I Pramme-Steinwachs, I Burtscher, P Schmitt-Kopplin, M Heinig, M Elsner, H Lickert, FJ Theis, S Ussar.    
 *__Nature Communications__, 12, (1), 1-12, 6, 2021.* 
@@ -12,7 +16,7 @@ R Karlina, D Lutter, __V Miok__, D Fischer, I Altun, T Schöttl, K Schorpp, A Is
 I Babion, __V Miok__, A Jaspers, A Huseinovic, RDM Steenbergen,WN van Wieringen, SM Wilting.       
 *__Cancers__, 12, (3), 700, 8, 2020.*
 
-[Identification and characterization of distinct murine brown adipocyte lineages](https://www.biorxiv.org/content/10.1101/2020.08.24.264416v1.article-info) 
+[Identification and characterization of distinct murine brown adipocyte lineages](https://www.biorxiv.org/content/10.1101/2020.08.24.264416v1.article-info)       
 R Karlina, D Lutter, __V Miok__, D Fischer, I Altun, T Schöttl, K Schorpp, A Israel, C Cero, JW Johnson, I Kapser-Fischer, A Böttcher, S Keipert, A Feuchtinger, E Graf, T Strom, A Walch, H Lickert, T Walzthoeni, M Heinig, FJ Theis, C García-Cáceres, AM Cypess, S Ussar.   
 *__bioRxiv__, 2020.* 
 
@@ -24,7 +28,7 @@ __V Miok__, SM Wilting, WN van Wieringen.
 I Babion, __V Miok__, A Jaspers, WN van Wieringen, RD Steenbergen, SM Wilting.   
 *__Cancer Research__, 78, (13 Supplement), 5059-5059, 2018.*   
 
-[Comprehensive molecular characterisation of HPV-induced transformation by longitudinal statistical modelling](https://research.vu.nl/en/publications/comprehensive-molecular-characterisation-of-hpv-induced-transform)
+[Comprehensive molecular characterisation of HPV-induced transformation by longitudinal statistical modelling](https://research.vu.nl/en/publications/comprehensive-molecular-characterisation-of-hpv-induced-transform)     
 __V Miok__     
 *__Vrije Universitat Amsterdam__, PhD-Thesis, 2018.*
 
